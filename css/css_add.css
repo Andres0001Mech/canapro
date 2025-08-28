@@ -1,0 +1,268 @@
+
+    .ie-panel {
+      display: none;
+      background: #212121;
+      padding: 10px 0;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+      clear: both;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    html.ie-10 .ie-panel,
+    html.lt-ie-10 .ie-panel {
+      display: block;
+    }
+
+    .banner {
+      background: linear-gradient(270deg, #9fcd90, #a9c96a, #469bbf, #9fcd90);
+      background-size: 600% 600%;
+      animation: gradientMove 8s ease infinite;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 15px;
+      gap: 15px;
+      font-size: 16px;
+      font-weight: 400;
+      white-space: nowrap;
+      height: 40px;
+    }
+
+    @keyframes gradientMove {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .banner strong {
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .banner span {
+      font-weight: 700;
+    }
+
+    .shop-btn {
+      background: #f8dc31;
+      margin-left: auto;
+      color: #000;
+      padding: 8px 15px;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 11px;
+      cursor: pointer;
+      border: none;
+      height: 30px;
+      transition: all 0.4s ease;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .shop-btn:hover {
+      background: linear-gradient(270deg, #ffef66, #ffd633, #ffb833);
+      background-size: 200% 200%;
+      animation: btnGradient 3s ease infinite;
+      color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    @keyframes btnGradient {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .divider {
+
+      font-weight: 700;
+      margin: 0 2px;
+    }
+
+    .bg-gradient {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(270deg, #9fcd90, #a9c96a, #469bbf, #9fcd90);
+      background-size: 600% 600%;
+      animation: gradientMove 10s ease infinite;
+      color: white;
+    }
+
+    .full-height {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      z-index: 2;
+      position: relative;
+    }
+
+    .bg-gradient {
+      position: relative;
+      overflow: hidden;
+      /* Oculta formas que se salgan */
+      background: linear-gradient(270deg, #9fcd90, #a9c96a, #469bbf, #9fcd90);
+      background-size: 600% 600%;
+      animation: gradientMove 10s ease infinite;
+      color: white;
+    }
+
+    .full-height {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Formas flotantes */
+    .bg-gradient::before,
+    .bg-gradient::after {
+      content: '';
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background: rgba(255, 255, 255, 0.07);
+      /* color blanco traslúcido */
+      border-radius: 50%;
+      /* Forma circular */
+      animation: floatShape 20s linear infinite;
+      z-index: 1;
+      /* Debajo del contenido pero encima del fondo */
+    }
+
+    .bg-gradient::before {
+      top: -100px;
+      left: -100px;
+    }
+
+    .bg-gradient::after {
+      bottom: -150px;
+      right: -150px;
+      animation-delay: 10s;
+      /* Empieza después para no coincidir con el otro */
+    }
+
+    @keyframes gradientMove {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    @keyframes floatShape {
+      0% {
+        transform: translateY(0) rotate(0deg);
+      }
+
+      50% {
+        transform: translateY(-50px) rotate(180deg);
+      }
+
+      100% {
+        transform: translateY(0) rotate(360deg);
+      }
+    }
+
+    .rd-nav-item {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+ 
+}
+
+.rd-nav-item:hover .submenu {
+  display: block;
+}
+
+.submenu li a {
+  display: block;
+  padding: 8px 16px;
+  color: #333;
+  text-decoration: none;
+  text-align: left;
+}
+
+.submenu li a:hover {
+  background: #f0f0f0;
+}
+/* Estilo del botón */
+.btn-whatsapp {
+  position: fixed;
+  width: 65px;
+  height: 65px;
+  bottom: 25px;
+  left: 25px; /* 👈 ahora en la izquierda */
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto hover */
+.btn-whatsapp:hover {
+  transform: scale(1.1);
+  background-color: #20b858;
+}
+
+/* Animación de pulso */
+.btn-whatsapp::after {
+  content: "";
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: rgba(37, 211, 102, 0.5);
+  animation: pulse 1.5s infinite;
+  z-index: -1;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}

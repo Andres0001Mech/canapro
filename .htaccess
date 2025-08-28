@@ -1,0 +1,47 @@
+# Evitar listado de directorios
+Options -Indexes
+
+# Ocultar información del servidor
+ServerSignature Off
+Header unset X-Powered-By
+
+# Proteger archivo .htaccess
+<Files ".htaccess">
+    Require all denied
+</Files>
+
+# Bloquear acceso a archivos sensibles
+<FilesMatch "\.(env|sql|bak|config|ini|log|sh|bat)$">
+    Require all denied
+</FilesMatch>
+
+# Bloquear ejecución de PHP en carpetas de solo recursos
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7)$">
+    Require all denied
+</FilesMatch>
+
+# Permitir PHP solo en el index.php
+<FilesMatch "^index\.php$">
+    Require all granted
+</FilesMatch>
+
+# Evitar que el contenido sea cargado en iframes (clickjacking)
+Header always append X-Frame-Options SAMEORIGIN
+
+# Evitar ejecución de scripts no autorizados
+Header set X-Content-Type-Options nosniff
+
+# Proteger contra ataques XSS
+Header set X-XSS-Protection "1; mode=block"
+
+# Obligar HTTPS y HSTS (usar solo si el sitio ya tiene HTTPS)
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+
+# Bloquear acceso a la carpeta config desde web
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^config/ - [F,L]
+</IfModule>
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?page=$1
