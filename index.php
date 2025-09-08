@@ -15,16 +15,29 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/css_add.css">
+    <link rel="stylesheet" href="css/animacion.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
+    
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <div class="preloader">
-      <div class="preloader-body">
-        <div class="cssload-container"><span></span><span></span><span></span><span></span>
-        </div>
-      </div>
+
+    <!-- PRELOADER -->
+<div class="preloader1" id="preloader">
+  <div class="preloader-body1">
+    <div class="cssload-container1">
+      <img src="../images/logo_cana_anima.jpg" alt="Logo Canapro">
     </div>
+  </div>
+</div>
+<!-- JAVASCRIPT -->
+<script>
+  window.addEventListener("load", function() {
+    const preloader = document.getElementById("preloader");
+    preloader.classList.add("hidden");
+  });
+</script>
+
     <div class="page">
       <div id="home">
         <!-- Top Banner-->
@@ -38,6 +51,7 @@
         </div>
 
       </a>
+
         <!-- Page Header-->
    <header class="section page-header">
         <!-- RD Navbar-->
@@ -103,7 +117,7 @@
                           <hr>
                           <li><a href="#opcion2">FORMULARIOS</a></li>
                           <hr>
-                          <li><a href="#opcion3">CURSOS</a></li>
+                          <li><a href="login/home.php">CURSOS</a></li>
                           <hr>
                           <li><a href="#opcion3">INSCRIPCION SEMNINARIO</a></li>
                           <hr>
@@ -743,7 +757,7 @@
               <!-- Post Modern-->
               <article class="post post-modern"><a class="post-modern-figure" href="#"><img src="images/post-10-370x307.jpg" alt="" width="370" height="307"/>
                   <div class="post-modern-time">
-                    <time datetime="2019-07-04"><span class="post-modern-time-month">07</span><span class="post-modern-time-number">04</span></time>
+                    <time datetime="2019-07-04">¡Afíliate Ahora!</time>
                   </div></a>
                 <h4 class="post-modern-title"><a href="#">¡Afiliate, descarga formato de admisión!</a></h4>
                 <p class="post-modern-text">Asynchronous functions are a good and bad thing in JavaScript. The good side is that asynchronous functions are non-blocking and...</p>
@@ -753,7 +767,7 @@
               <!-- Post Modern-->
               <article class="post post-modern"><a class="post-modern-figure" href="#"><img src="images/post-11-370x307.jpg" alt="" width="370" height="307"/>
                   <div class="post-modern-time">
-                    <time datetime="2019-07-17"><span class="post-modern-time-month">07</span><span class="post-modern-time-number">17</span></time>
+                    <time datetime="2019-07-17">¡Actualiza tus Datos!</time>
                   </div></a>
                 <h4 class="post-modern-title"><a href="#">¡Actualiza tus datos, descarga el formato!</a></h4>
                 <p class="post-modern-text">Digital transformation requires cloud appropriate adoption, legacy IT systems modernization, and Agile-based methodologies for faster...</p>
@@ -763,7 +777,7 @@
               <!-- Post Modern-->
               <article class="post post-modern"><a class="post-modern-figure" href="#"><img src="images/post-12-370x307.jpg" alt="" width="370" height="307"/>
                   <div class="post-modern-time">
-                    <time datetime="2019-07-22"><span class="post-modern-time-month">07</span><span class="post-modern-time-number">22</span></time>
+                 Descubre Cursos
                   </div></a>
                 <h4 class="post-modern-title"><a href="#">cursos virtuales</a></h4>
                 <p class="post-modern-text">In this tutorial, we will discuss the Hibernate Query Language. HQL is an object-oriented query language. Hibernate Query...</p>

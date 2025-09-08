@@ -1,0 +1,31 @@
+/* PRELOADER */
+.preloader1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 1s ease, visibility 1s ease;
+}
+
+.cssload-container1 img {
+  width: 120px; /* Ajusta tamaño del logo */
+  animation: spin 2s linear infinite;
+}
+
+/* Animación de rotación */
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Estado oculto */
+.preloader1.hidden {
+  opacity: 0;
+  visibility: hidden;
+}

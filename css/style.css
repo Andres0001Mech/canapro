@@ -12316,19 +12316,14 @@ html:not(.lt-ie10) .not-animated {
 
 .preloader {
 	position: fixed;
-	text-align: center;
-	left: 0;
-	top: 0;
-	bottom: 0;
-	right: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	padding: 20px;
-	z-index: 9999999;
 	background: #ffffff;
-	transition: .3s all ease;
+	transition: all 0.3s ease;
+	text-align: center; /* centra texto dentro de cada elemento */
 }
 
 .preloader.loaded {
@@ -12366,22 +12361,32 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .cssload-container {
-	position: absolute;
+
 	top: 50%;
 	left: 50%;
 	width: 80px;
 	height: 80px;
-	transform: translate(-50%, -50%) rotate(45deg) translate3d(0, 0, 0);
 	animation: loader 1.2s infinite ease-in-out;
 }
 
-.cssload-container span {
-	position: absolute;
-	display: block;
-	width: 40px;
-	height: 40px;
-	background-color: #6689ff;
-	animation: loaderBlock 1.2s infinite ease-in-out both;
+.cssload-container {
+  position: relative;
+  width: 100px;  /* ajusta al tamaño de tu logo */
+  height: 100px;
+  margin: auto;
+}
+
+.cssload-container img {
+  width: 100%;
+  height: auto;
+  animation: pulse 1.5s infinite ease-in-out,
+             spin 4s linear infinite; /* añadimos giro */
+}
+
+/* Efecto de “giro” */
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .cssload-container span:nth-child(1) {
