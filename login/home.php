@@ -64,27 +64,66 @@
         <div class="card shadow-sm border-0 rounded-3">
           <div class="card-body p-5">
             <br>
-            <img src="" alt="">
-            <h1 class="text fw-bold mb-4 text-center">
-              Curso Básico de Economía Solidaria
-            </h1>
+          <img 
+  src="../images/imagen_curso_2.png" 
+  alt="Ilustración del Curso Básico de Economía Solidaria"
+  class="img-fluid w-100 rounded shadow-lg mb-4" width="100%"
+/>
+<br><br>
+<h1 class="fw-bold text-center text-primary mb-4">
+  Curso Básico de <span class="text-dark border-bottom border-3 border-primary">Economía Solidaria</span>
+</h1>
+
             <p class="text-muted">
               <strong>Objetivo general:</strong> Brindar las herramientas conceptuales, metodológicas y normativas que permitan el acceso equitativo a las oportunidades y beneficios del modelo solidario por parte de las personas, grupos o comunidades interesadas en crear y fortalecer organizaciones solidarias.
             </p>
             <hr>
-            <h4 class="fw-semibold text-dark mt-4">Objetivos específicos</h4>
-            <ul class="list-group list-group-flush mb-4">
-              <li class="list-group-item">Identificar y comprender los conceptos, principios y valores del sector solidario.</li>
-              <li class="list-group-item">Conocer la estructura del sistema de economía solidaria como mecanismo de participación.</li>
-              <li class="list-group-item">Describir los pasos para lograr una eficaz participación y desarrollo autogestionario.</li>
-              <li class="list-group-item">Explicar aspectos técnicos y legales aplicables al fortalecimiento del modelo.</li>
-              <li class="list-group-item">Fomentar proyectos sociales, educativos y económicos en el marco asociativo.</li>
-              <li class="list-group-item">Promover el desarrollo humano, económico y social en las comunidades.</li>
-              <li class="list-group-item">Impulsar la educación humanista y solidaria como política institucional.</li>
-              <li class="list-group-item">Desarrollar un currículo basado en principios y valores de la Economía Solidaria.</li>
-              <li class="list-group-item">Cultivar identidad y sentido de pertenencia en las organizaciones.</li>
-              <li class="list-group-item">Integrar la formación solidaria en las actividades sociales y empresariales.</li>
-            </ul>
+           <h4 class="fw-bold text-primary mt-4">
+  <i class="bi bi-bullseye me-2"></i> Objetivos específicos
+</h4>
+
+<ul class="list-group list-group-flush mb-4">
+  <li class="list-group-item d-flex align-items-center">
+    <i class="bi bi-check-circle-fill text-success me-2"></i>
+    Identificar y comprender los conceptos, principios y valores del sector solidario.
+  </li>
+  <li class="list-group-item d-flex align-items-center">
+    <i class="bi bi-check-circle-fill text-success me-2"></i>
+    Conocer la estructura del sistema de economía solidaria como mecanismo de participación.
+  </li>
+  <li class="list-group-item d-flex align-items-center">
+    <i class="bi bi-check-circle-fill text-success me-2"></i>
+    Describir los pasos para lograr una eficaz participación y desarrollo autogestionario.
+  </li>
+  <li class="list-group-item d-flex align-items-center">
+    <i class="bi bi-check-circle-fill text-success me-2"></i>
+    Explicar aspectos técnicos y legales aplicables al fortalecimiento del modelo.
+  </li>
+  <li class="list-group-item d-flex align-items-center">
+    <i class="bi bi-check-circle-fill text-success me-2"></i>
+    Fomentar proyectos sociales, educativos y económicos en el marco asociativo.
+  </li>
+  <li class="list-group-item d-flex align-items-center">
+    <i class="bi bi-check-circle-fill text-success me-2"></i>
+    Promover el desarrollo humano, económico y social en las comunidades.
+  </li>
+  <li class="list-group-item d-flex align-items-center">
+    <i class="bi bi-check-circle-fill text-success me-2"></i>
+    Impulsar la educación humanista y solidaria como política institucional.
+  </li>
+  <li class="list-group-item d-flex align-items-center">
+    <i class="bi bi-check-circle-fill text-success me-2"></i>
+    Desarrollar un currículo basado en principios y valores de la Economía Solidaria.
+  </li>
+  <li class="list-group-item d-flex align-items-center">
+    <i class="bi bi-check-circle-fill text-success me-2"></i>
+    Cultivar identidad y sentido de pertenencia en las organizaciones.
+  </li>
+  <li class="list-group-item d-flex align-items-center">
+    <i class="bi bi-check-circle-fill text-success me-2"></i>
+    Integrar la formación solidaria en las actividades sociales y empresariales.
+  </li>
+</ul>
 
             <h4 class="fw-semibold text-dark">Metodología</h4>
             <p class="text-muted">

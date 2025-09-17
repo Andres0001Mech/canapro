@@ -7,11 +7,15 @@ if ($conexion->connect_error) {
     die("Error de conexión: " . $conexion->connect_error);
 }
 
+// Recibimos los datos del formulario
 $correo = $_POST['correo'];
-$contrasena = md5($_POST['contrasena']); // encriptamos con md5
+$contrasena = md5($_POST['contrasena']); // encriptamos con md5 (se recomienda usar password_hash en proyectos reales)
 
-$sql = "SELECT * FROM usuarios WHERE correo='$correo' AND contrasena='$contrasena'";
-$resultado = $conexion->query($sql);
+// Usamos sentencias preparadas para evitar inyecciones SQL
+$stmt = $conexion->prepare("SELECT * FROM usuarios WHERE correo = ? AND contrasena = ?");
+$stmt->bind_param("ss", $correo, $contrasena);
+$stmt->execute();
+$resultado = $stmt->get_result();
 
 if ($resultado->num_rows > 0) {
     $usuario = $resultado->fetch_assoc();
@@ -23,7 +27,15 @@ if ($resultado->num_rows > 0) {
     } else {
         header("Location: estudiante.php");
     }
+    exit();
 } else {
-    echo "Credenciales incorrectas. <a href='login.php'>Volver</a>";
+    echo "<script>
+        alert('Credenciales incorrectas');
+        window.location.href = 'login.php';
+    </script>";
+    exit();
 }
+
+$stmt->close();
+$conexion->close();
 ?>

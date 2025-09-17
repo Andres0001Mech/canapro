@@ -1,12 +1,46 @@
 <?php
 session_start();
-if (!isset($_SESSION['usuario']) || $_SESSION['rol'] != 'estudiante') {
+
+// Regenerar ID de sesión para mayor seguridad
+session_regenerate_id(true);
+
+// Verificar autenticación y rol
+if (
+    !isset($_SESSION['usuario']) || 
+    !isset($_SESSION['rol']) || 
+    $_SESSION['rol'] !== 'estudiante'
+) {
     header("Location: login.php");
     exit();
 }
 
-$pagina = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
+// Sanitizar parámetro 'pagina' desde la URL
+$pagina = filter_input(INPUT_GET, 'pagina', FILTER_VALIDATE_INT);
+if ($pagina === false || $pagina === null || $pagina < 1) {
+    $pagina = 1;
+}
 ?>
+
+
+
+<?php
+session_start();
+
+// Si no hay sesión activa, redirigir al login
+if (!isset($_SESSION['usuario'])) {
+    header("Location: login.php");
+    exit();
+}
+
+// Evitar caché en el navegador
+header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1
+header("Pragma: no-cache"); // HTTP 1.0
+header("Expires: 0"); // Proxies
+?>
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="es">

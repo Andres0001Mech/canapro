@@ -119,7 +119,7 @@ $result = $conn->query($sql);
       <i class="fa-solid fa-book-open me-2"></i> Ir a Lección 4
     </a>
     <a href="leccion5.php" class="btn btn-success btn-lg shadow-sm">
-      Ir a Lección 5 <i class="fa-solid fa-arrow-right ms-2"></i>
+      Siguiente Unidad<i class="fa-solid fa-arrow-right ms-2"></i>
     </a>
   </div>
 </div>
