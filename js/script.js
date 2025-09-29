@@ -442,7 +442,7 @@
 			// Custom validator - phone number
 			regula.custom({
 				name: 'PhoneNumber',
-				defaultMessage: 'Invalid phone number format',
+				defaultMessage: 'Solo se aceptan números',
 				validator: function() {
 					if ( this.value === '' ) return true;
 					else return /^(\+\d)?[0-9\-\(\) ]{5,}$/i.test( this.value );
@@ -474,19 +474,19 @@
 			var regularConstraintsMessages = [
 				{
 					type: regula.Constraint.Required,
-					newMessage: "The text field is required."
+					newMessage: "Por favor escriba su nombre."
 				},
 				{
 					type: regula.Constraint.Email,
-					newMessage: "The email is not a valid email."
+					newMessage: "Por favor escriba su email."
 				},
 				{
 					type: regula.Constraint.Numeric,
-					newMessage: "Only numbers are required"
+					newMessage: "Por favor digite su número de teléfono."
 				},
 				{
 					type: regula.Constraint.Selected,
-					newMessage: "Please choose an option."
+					newMessage: "Por favor escriba un mensaje."
 				}
 			];
 
@@ -787,13 +787,15 @@
 			}
 		}
 
-		// UI To Top
-		/*if ( isDesktop && !isNoviBuilder ) {
+		/* UI To Top
+		if ( isDesktop && !isNoviBuilder ) {
 			$().UItoTop( {
 				easingType:     'easeOutQuad',
 				containerClass: 'ui-to-top fa fa-angle-up'
 			} );
-		}*/
+		}
+
+		*/
 
 		// lightGallery
 		if (plugins.lightGallery.length) {

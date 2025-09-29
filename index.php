@@ -942,7 +942,7 @@
           </div>
         </article>
         <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global"
-          data-form-type="contact" method="post" action="bat/rd-mailform.php">
+          data-form-type="contact" method="post" action="sendmail.php">
           <div class="row row-14 gutters-14">
             <div class="col-md-4">
               <div class="form-wrap">
