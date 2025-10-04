@@ -44,7 +44,7 @@ function getAfiliacionInfo($conexion, $pregunta)
 
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
-        return "📝 " . $row['respuesta'];
+        return "" . $row['respuesta'];
     }
 
     return null;
@@ -64,7 +64,7 @@ function getAhorroInfo($conexion, $pregunta)
 
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
-        return "💰 " . $row['respuesta'];
+        return "" . $row['respuesta'];
     }
 
     return null;
@@ -85,7 +85,7 @@ function getCreditoInfo($conexion, $pregunta)
 
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
-        return "💳 " . $row['respuesta'];
+        return "" . $row['respuesta'];
     }
     return null;
 }
@@ -103,7 +103,7 @@ function otrosServicios($conexion, $pregunta)
 
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
-        return '✨ ' . $row['respuesta'];
+        return '' . $row['respuesta'];
     }
 
 }

@@ -364,17 +364,14 @@
           <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 4">
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-1-420x350.jpg" alt="" width="420"
-                  height="350" />
+              <div class="thumbnail-classic-figure"><img src="images/bolos.jpg" alt="" width="420" height="350" />
               </div>
               <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-1-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-1-420x350.jpg" alt="" width="420" height="350" /></a>
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/bolos.jpg"
+                    data-lightgallery="item"><img src="images/bolos.jpg" alt="" width="820" height="350" /></a>
                   <h5 class="thumbnail-classic-title"><a href="#">FinStep</a></h5>
                 </div>
-                <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI
-                  that you won’t find anywhere else.</p>
+                <p class="thumbnail-classic-text">Bolos</p>
               </div>
             </article>
           </div>
@@ -382,32 +379,29 @@
             data-wow-delay=".1s">
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-2-420x350.jpg" alt="" width="420"
-                  height="350" />
+              <div class="thumbnail-classic-figure"><img src="images/café-bar1.jpg" alt="" width="420" height="350" />
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-2-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-2-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Mobile Finance</a></h5>
+                    href="images/café-bar1.jpg" data-lightgallery="item"><img src="images/café-bar1.jpg" alt=""
+                      width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">café bar</a></h5>
                 </div>
                 <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI
                   that you won’t find anywhere else.</p>
               </div>
             </article>
           </div>
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 2"
-            data-wow-delay=".2s">
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3">
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-3-420x350.jpg" alt="" width="420"
-                  height="350" />
+              <div class="thumbnail-classic-figure"><img src="images/piscina2.JPG" alt="" width="420" height="350" />
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-3-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-3-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Q-Manage</a></h5>
+                    href="images/piscina2.JPG" data-lightgallery="item"><img src="images/piscina2.JPG" alt=""
+                      width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">piscina2</a></h5>
                 </div>
                 <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI
                   that you won’t find anywhere else.</p>
@@ -418,31 +412,31 @@
             data-wow-delay=".3s">
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-4-420x350.jpg" alt="" width="420"
-                  height="350" />
+              <div class="thumbnail-classic-figure"><img src="images/piscina1.JPG" alt="" width="420" height="350" />
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-4-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-4-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">WeatherCast</a></h5>
+                    href="images/piscina1.JPG" data-lightgallery="item"><img src="images/piscina1.JPG" alt=""
+                      width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Piscina</a></h5>
                 </div>
                 <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI
                   that you won’t find anywhere else.</p>
               </div>
             </article>
           </div>
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3">
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 2"
+            data-wow-delay=".2s">
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420"
+              <div class="thumbnail-classic-figure"><img src="images/salón-juegos1.jpg" alt="" width="420"
                   height="350" />
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-5-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Home Calendar</a></h5>
+                    href="images/salón-juegos1.jpg" data-lightgallery="item"><img src="images/salón-juegos1.jpg" alt=""
+                      width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Salón de juegos</a></h5>
                 </div>
                 <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI
                   that you won’t find anywhere else.</p>
@@ -453,17 +447,15 @@
             data-wow-delay=".1s">
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420"
-                  height="350" />
+              <div class="thumbnail-classic-figure"><img src="images/café-bar2.jpg" alt="" width="420" height="350" />
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350" /></a>
+                    href="images/café-bar2.jpg" data-lightgallery="item"><img src="images/café-bar2.jpg" alt=""
+                      width="420" height="350" /></a>
                   <h5 class="thumbnail-classic-title"><a href="#">MPlanner</a></h5>
                 </div>
-                <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI
-                  that you won’t find anywhere else.</p>
+                <p class="thumbnail-classic-text">cafe bar</p>
               </div>
             </article>
           </div>
@@ -471,13 +463,13 @@
             data-wow-delay=".2s">
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420"
+              <div class="thumbnail-classic-figure"><img src="images/salón-juegos2.JPG" alt="" width="420"
                   height="350" />
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-7-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420" height="350" /></a>
+                    href="images/salón-juegos2.JPG" data-lightgallery="item"><img src="images/salón-juegos2.JPG" alt=""
+                      width="420" height="350" /></a>
                   <h5 class="thumbnail-classic-title"><a href="#">Alice Messenger</a></h5>
                 </div>
                 <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI
@@ -489,14 +481,14 @@
             data-wow-delay=".3s">
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420"
+              <div class="thumbnail-classic-figure"><img src="images/piscina3.jpg" alt="" width="420"
                   height="350" />
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">WiseMoney</a></h5>
+                    href="images/piscina3.jpg" data-lightgallery="item"><img
+                      src="images/piscina3.jpg" alt="" width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">piscina3</a></h5>
                 </div>
                 <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI
                   that you won’t find anywhere else.</p>
@@ -997,14 +989,14 @@
 
     <!-- Page Footer-->
     <footer class="section section-fluid footer-minimal context-dark">
-      <div class="bg-gray-15">
+      <div style="background-color:rgb(5, 65, 140);">
         <div class="container-fluid">
           <div class="footer-minimal-inset oh">
             <ul class="footer-list-category-2">
 
               <li><a href="#">Políticas de Tratamiento de Datos</a></li>
               <li><a href="#">Aviso de privacidad</a></li>
-              <li><a href="#">LOGO~~</a></li>
+              <img class="" src="images/canapro-cac-grande-h.png" alt="" width="280px">
 
             </ul>
           </div>
